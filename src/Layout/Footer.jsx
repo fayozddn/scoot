@@ -12,8 +12,11 @@ const navList = (
       variant="small"
       color="blue-gray"
       className="p-1 font-normal"
-        >
-      <a href="/about" className="flex items-center dark:text-snow text-gray dark:hover:text-orange hover:text-orange duration-300">
+    >
+      <a
+        href="/about"
+        className="flex items-center dark:text-snow text-gray dark:hover:text-orange hover:text-orange duration-300"
+      >
         About
       </a>
     </Typography>
@@ -23,7 +26,10 @@ const navList = (
       color="blue-gray"
       className="p-1 font-normal"
     >
-      <a href="/location" className="flex items-center dark:text-snow text-gray dark:hover:text-orange hover:text-orange duration-300">
+      <a
+        href="/location"
+        className="flex items-center dark:text-snow text-gray dark:hover:text-orange hover:text-orange duration-300"
+      >
         Location
       </a>
     </Typography>
@@ -33,7 +39,10 @@ const navList = (
       color="blue-gray"
       className="p-1 font-normal"
     >
-      <a href="/careers" className="flex items-center dark:text-snow text-gray dark:hover:text-orange hover:text-orange duration-300">
+      <a
+        href="/careers"
+        className="flex items-center dark:text-snow text-gray dark:hover:text-orange hover:text-orange duration-300"
+      >
         Careers
       </a>
     </Typography>
@@ -51,15 +60,18 @@ const Footer = () => {
     });
   }, []);
   return (
-    <footer className="text-white" data-aos="fade">
+    <footer className="text-white">
       <div className="bg-dark_gray">
-        <div className="container flex md:flex-row flex-col gap-10 justify-between items-center py-12">
+        <div className="container flex md:flex-row flex-col gap-10 justify-between items-center py-20">
           <div className="flex gap-10">
-            <h1 className="text-center md:text-left text-3xl md:text-4xl lg:text-5xl font-semibold lg:max-w-96">
+            <h1
+              className="text-center md:text-left text-3xl md:text-4xl lg:text-5xl font-semibold lg:max-w-[450px] tracking-normal"
+              data-aos="zoom-in"
+            >
               Sign up and Scoot off today
             </h1>
           </div>
-          <div className="flex flex-row gap-10">
+          <div className="flex flex-row gap-10" data-aos="zoom-in">
             <a
               href="https://www.apple.com/app-store/"
               target="_blank"

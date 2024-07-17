@@ -10,10 +10,9 @@ import man from "./images/Group 12.svg";
 const Careers = () => {
   useEffect(() => {
     AOS.init({
-      duration: 1000,
+      duration: 700,
       once: true,
       mirror: true,
-      delay: 100,
       easing: "ease-in-out",
     });
   }, []);
@@ -27,7 +26,10 @@ const Careers = () => {
         </div>
       </section>
       <section className="container py-10 flex flex-col xl:flex-row justify-between items-center gap-20 xl:gap-0">
-        <div className="flex flex-col items-center text-center xl:items-start xl:text-left gap-6" data-aos="fade-right">
+        <div
+          className="flex flex-col items-center text-center xl:items-start xl:text-left gap-6"
+          data-aos="fade-right"
+        >
           <div className="flex flex-col gap-6">
             <h1 className="max-w-[400px] text-4xl text-footer font-semibold dark:text-white">
               Care to join our mission?
@@ -49,7 +51,12 @@ const Careers = () => {
             </Button>
           </div>
         </div>
-        <img src={humans} alt="" className="flex justify-end" data-aos="fade-left" />
+        <img
+          src={humans}
+          alt=""
+          className="flex justify-end"
+          data-aos="fade-left"
+        />
       </section>
       <section className="container flex flex-col justify-normal items-center gap-5">
         <div className="flex justify-center items-center py-10">
@@ -95,7 +102,10 @@ const Careers = () => {
         </div>
       </section>
       <section className="container py-20 flex items-center justify-center flex-col gap-5">
-        <div className="w-[290px] sm:w-[400px] md:w-[600px] lg:w-[800px] xl:w-[1000px] 2xl:w-[1110px] h-[128px] bg-snow flex flex-row items-center justify-between px-10" data-aos="fade-left">
+        <div
+          className="w-[290px] sm:w-[400px] md:w-[600px] lg:w-[800px] xl:w-[1000px] 2xl:w-[1110px] h-[128px] bg-snow flex flex-row items-center justify-between px-10"
+          data-aos="fade-left"
+        >
           <div>
             <h1 className="max-w-[206px] text-footer text-2xl">
               General Manager
@@ -113,7 +123,10 @@ const Careers = () => {
           </div>
         </div>
 
-        <div className="w-[290px] sm:w-[400px] md:w-[600px] lg:w-[800px] xl:w-[1000px] 2xl:w-[1110px] h-[128px] bg-snow flex flex-row items-center justify-between px-10" data-aos="fade-right">
+        <div
+          className="w-[290px] sm:w-[400px] md:w-[600px] lg:w-[800px] xl:w-[1000px] 2xl:w-[1110px] h-[128px] bg-snow flex flex-row items-center justify-between px-10"
+          data-aos="fade-right"
+        >
           <div>
             <h1 className="max-w-[206px] text-footer text-2xl">
               UI/UX Designer
@@ -131,7 +144,10 @@ const Careers = () => {
           </div>
         </div>
 
-        <div className="w-[290px] sm:w-[400px] md:w-[600px] lg:w-[800px] xl:w-[1000px] 2xl:w-[1110px] h-[128px] bg-snow flex flex-row items-center justify-between px-10" data-aos="fade-left">
+        <div
+          className="w-[290px] sm:w-[400px] md:w-[600px] lg:w-[800px] xl:w-[1000px] 2xl:w-[1110px] h-[128px] bg-snow flex flex-row items-center justify-between px-10"
+          data-aos="fade-left"
+        >
           <div>
             <h1 className="text-footer text-2xl">Blog Content Copywriter</h1>
             <span className="text-gray">New York, United States</span>
@@ -147,7 +163,10 @@ const Careers = () => {
           </div>
         </div>
 
-        <div className="w-[290px] sm:w-[400px] md:w-[600px] lg:w-[800px] xl:w-[1000px] 2xl:w-[1110px] h-[128px] bg-snow flex flex-row items-center justify-between px-10" data-aos="fade-right">
+        <div
+          className="w-[290px] sm:w-[400px] md:w-[600px] lg:w-[800px] xl:w-[1000px] 2xl:w-[1110px] h-[128px] bg-snow flex flex-row items-center justify-between px-10"
+          data-aos="fade-right"
+        >
           <div>
             <h1 className="max-w-[206px] text-footer text-2xl">
               Graphic Designer
@@ -165,7 +184,10 @@ const Careers = () => {
           </div>
         </div>
 
-        <div className="w-[290px] sm:w-[400px] md:w-[600px] lg:w-[800px] xl:w-[1000px] 2xl:w-[1110px] h-[128px] bg-snow flex flex-row items-center justify-between px-10" data-aos="fade-left">
+        <div
+          className="w-[290px] sm:w-[400px] md:w-[600px] lg:w-[800px] xl:w-[1000px] 2xl:w-[1110px] h-[128px] bg-snow flex flex-row items-center justify-between px-10"
+          data-aos="fade-left"
+        >
           <div>
             <h1 className="max-w-[206px] text-footer text-2xl">
               Fleet Supervisor
@@ -183,7 +205,10 @@ const Careers = () => {
           </div>
         </div>
 
-        <div className="w-[290px] sm:w-[400px] md:w-[600px] lg:w-[800px] xl:w-[1000px] 2xl:w-[1110px] h-[128px] bg-snow flex flex-row items-center justify-between px-10" data-aos="fade-right">
+        <div
+          className="w-[290px] sm:w-[400px] md:w-[600px] lg:w-[800px] xl:w-[1000px] 2xl:w-[1110px] h-[128px] bg-snow flex flex-row items-center justify-between px-10"
+          data-aos="fade-right"
+        >
           <div>
             <h1 className="max-w-[206px] text-footer text-2xl">UX Analyst</h1>
             <span className="text-gray">London, United Kingdom</span>

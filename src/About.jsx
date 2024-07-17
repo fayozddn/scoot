@@ -36,10 +36,9 @@ function Icon({ id, open }) {
 const About = () => {
   useEffect(() => {
     AOS.init({
-      duration: 1000,
+      duration: 700,
       once: true,
       mirror: true,
-      delay: 100,
       easing: "ease-in-out",
     });
   }, []);

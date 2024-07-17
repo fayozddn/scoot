@@ -15,10 +15,9 @@ import hand from "./images/Group 18.svg";
 const Home = () => {
   useEffect(() => {
     AOS.init({
-      duration: 1000,
+      duration: 700,
       once: true,
       mirror: true,
-      delay: 100,
       easing: "ease-in-out",
     });
   }, []);
@@ -29,14 +28,17 @@ const Home = () => {
           className="container bg-hero bg-cover bg-center bg-no-repeat py-20 2xl:h-[600px] flex flex-col items-center 2xl:items-start gap-y-20 text-white"
           data-aos="fade"
         >
-          <h1 className="flex text-center 2xl:text-left justify-center items-center text-5xl max-w-[500px] xl:max-w-[600px] 2xl:pl-48 h-[112px] font-semibold">
+          <h1
+            data-aos="fade-right"
+            className="flex text-center 2xl:text-left justify-center items-center text-5xl max-w-[500px] xl:max-w-[600px] 2xl:pl-48 h-[112px] font-semibold"
+          >
             Scooter sharing made simple
           </h1>
           <div className="flex flex-col gap-5 md:text-left text-center">
             <div className="flex flex-col 2xl:flex-row gap-20 items-center 2xl:items-start justify-start text-center 2xl:text-left">
               <div className="flex gap-10">
                 <img src={stick} alt="stick" className="hidden 2xl:flex " />
-                <p className="max-w-[405px]">
+                <p className="max-w-[405px]" data-aos="fade-up">
                   Scoot takes the hassle out of urban mobility. Our bikes are
                   placed in convenient locations in each of our cities. Use our
                   app to locate the nearest bike, unlock it with a tap, and
@@ -45,6 +47,7 @@ const Home = () => {
               </div>
               <div className="flex 2xl:hidden">
                 <Button
+                  data-aos="fade-up"
                   variant="text"
                   size="md"
                   className="flex bg-orange rounded-none border border-orange hover:bg-transparent hover:text-orange"
@@ -68,7 +71,10 @@ const Home = () => {
             </div>
           </div>
         </section>
-        <section className="flex flex-row flex-wrap justify-center w-full gap-x-44 gap-y-20" data-aos="fade-up">
+        <section
+          className="flex flex-row flex-wrap justify-center w-full gap-x-44 gap-y-20"
+          data-aos="fade-up"
+        >
           <div className="flex flex-col md:flex-row lg:flex-col items-center md:items-start text-center md:text-start gap-16 lg:max-w-[322px]">
             <img src={phone} alt="phone" />
             <div className="flex flex-col gap-5">
@@ -111,7 +117,10 @@ const Home = () => {
         </section>
         <section className="w-full flex flex-col gap-28">
           <div className="flex xl:flex-row flex-col-reverse justify-between items-center gap-20">
-            <div className="max-w-[445px] text-gray dark:text-white flex flex-col items-center text-center xl:text-left xl:items-start gap-8" data-aos="fade-right">
+            <div
+              className="max-w-[445px] text-gray dark:text-white flex flex-col items-center text-center xl:text-left xl:items-start gap-8"
+              data-aos="fade-right"
+            >
               <h1 className="text-4xl text-footer font-semibold dark:text-white">
                 Easy to use riding telemetry
               </h1>
@@ -134,7 +143,10 @@ const Home = () => {
             </div>
           </div>
           <div className="flex xl:flex-row-reverse flex-col-reverse justify-between items-center gap-20">
-            <div className="max-w-[445px] text-gray dark:text-white flex flex-col items-center text-center xl:text-left xl:items-start gap-8" data-aos="fade-left">
+            <div
+              className="max-w-[445px] text-gray dark:text-white flex flex-col items-center text-center xl:text-left xl:items-start gap-8"
+              data-aos="fade-left"
+            >
               <h1 className="text-4xl text-footer font-semibold dark:text-white">
                 Coming to a city near you
               </h1>
@@ -157,7 +169,10 @@ const Home = () => {
             </div>
           </div>
           <div className="flex xl:flex-row flex-col-reverse justify-between items-center gap-20">
-            <div className="max-w-[445px] text-gray dark:text-white flex flex-col items-center text-center xl:text-left xl:items-start gap-8" data-aos="fade-right">
+            <div
+              className="max-w-[445px] text-gray dark:text-white flex flex-col items-center text-center xl:text-left xl:items-start gap-8"
+              data-aos="fade-right"
+            >
               <h1 className="text-4xl text-footer font-semibold dark:text-white">
                 Zero hassle payments
               </h1>

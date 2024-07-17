@@ -6,10 +6,9 @@ import locations from "./images/Group 7.svg";
 const Location = () => {
   useEffect(() => {
     AOS.init({
-      duration: 1000,
+      duration: 700,
       once: true,
       mirror: true,
-      delay: 100,
       easing: "ease-in-out",
     });
   }, []);
